@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+  }
+  
+  body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-image: url('Images/sunsetYoga.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%, 50%;
+    margin-top:0px;
+  }
+  .title {
+    position: fixed;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+  }
+  h3{
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  header {
+    font-size: 25px; 
+    font-weight: bold;
+    padding: 20px;
+  }
+  code{
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(77, 77, 77);
+    border-radius: 5%;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover {
+    color: rgb(39, 136, 136);
+  }
+  /*Referenced W3schools for the hover element*/
+  .page {
+    float: right;
+    width: 75%;
+    background-color: #f1f1f1;
+    padding-left: 0px;
+  }
+  .sections {
+    background-color:rgb(161, 137, 137);
+    padding: 15px;
+    margin-top: 0px;
+  }
